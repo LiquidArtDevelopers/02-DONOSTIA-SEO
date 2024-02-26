@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+
+<!-- METADATOS -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SEO Donostia | Cómo posicionar tu página web en los navegadores</title>
+    <title>SEO Donostia | Cómo posicionar tu página web en los navegadores</title> 
     <meta name="description" content="Descubre cómo optimizar tu página web para obtener un excelente posicionamiento en Google mediante estrategias de SEO efectivas. Aprende a posicionar de manera óptima tu web y a mejorar la visibilidad de tu sitio en los resultados de búsqueda y atraer más tráfico orgánico de calidad.">
     <link rel="stylesheet" href="./style.css">
 
+    
+    <!-- De aquí para abajo es todo nuevo -->
     <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
     <meta name="referrer" content="origin" >
     
-    
+    <!-- siempre tiene que ser la URL de esta página (sin variables get) -->
     <link rel="canonical" href="https://webda.eus/profeseo/">
 
-    <link rel="icon" href="https://webda.eus/profeseo/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="" type="image/png"> <!-- 32x32 -->
+    <!-- zona de diferentes iconos -->
+    <link rel="icon" href="https://webda.eus/profeseo/favicon.ico" type="image/x-icon"> <!-- 48x48 -->
+    <link rel="icon" href="https://webda.eus/profeseo/favicon.png" type="image/png"> <!-- 32x32 -->
     <link rel="icon" href="" type="image/png"> <!-- 192x192 -->
     <link rel="shortcut icon" href="" type="image/png"> <!-- 500x500 -->
-    <link rel="apple-touch-icon" href=""> <!-- 180x180 -->
+    <link rel="apple-touch-icon" href=""> <!-- 180x180 png-->
     <meta name="msapplication-TileImage" content=""> <!-- 270x270 -->
    
+    <!-- zona OG para compartir url linkedIn y facebook -->
     <meta property="og:locale" content="es_ES"> 
     <meta property="og:type" content="website"> 
-    <meta property="og:title" content="Valeiras Vidal Clínica Dental | Dentista homologado PADI en Hondarribia, Irún"> 
-    <meta property="og:description" content="Valeiras Vidal Clínica Dental, dentista en Hondarribia e Irún de confianza. Homologados para PADI (Programa de Asistencia Dental Infantil). Clínica dental con más de 30 años de experiencia situados en la parte vieja de Hondarribia. Prevención y atención personalizada.">
-    <meta property="og:url" content="https://valeirasvidalclinica.com/">
-    <meta property="og:site_name" content="valeirasvidalclinica">
-    <meta property="og:image" content="https://valeirasvidalclinica.com/assets/img/vidal_banner_1200.jpg"> 
-    <meta property="og:image:secure_url" content="https://valeirasvidalclinica.com/assets/img/vidal_banner_1200.jpg"> 
-    <meta property="og:updated_time" content="2023-03-14T16:24:17+00:00">
+    <meta property="og:title" content="SEO Donostia | Cómo posicionar tu página web en los navegadores"> <!-- título -->
+    <meta property="og:description" content="Descubre cómo optimizar tu página web para obtener un excelente posicionamiento en Google mediante estrategias de SEO efectivas. Aprende a posicionar de manera óptima tu web y a mejorar la visibilidad de tu sitio en los resultados de búsqueda y atraer más tráfico orgánico de calidad."> <!-- descripción -->
+    <meta property="og:url" content="https://webda.eus/profeseo/">
+    <meta property="og:site_name" content="webda.eus/profeseo/">
+    <meta property="og:image" content=""> <!-- url del banner 1200x600 -->
+    <meta property="og:image:secure_url" content=""> <!-- url de otro banner 1200x600 -->
     
-    
+    <!-- zona twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="Valeiras Vidal Clínica Dental, dentista en Hondarribia e Irún de confianza. Homologados para PADI (Programa de Asistencia Dental Infantil). Clínica dental con más de 30 años de experiencia situados en la parte vieja de Hondarribia. Prevención y atención personalizada.">
-    <meta name="twitter:title" content="Valeiras Vidal Clínica Dental | Dentista homologado PADI en Hondarribia, Irún">
-    <meta name="twitter:site" content="@liquidartdev" >
-    <meta name="twitter:image" content="https://valeirasvidalclinica.com/assets/img/vidal_banner_1200.jpg">
+    <meta name="twitter:description" content="Descubre cómo optimizar tu página web para obtener un excelente posicionamiento en Google mediante estrategias de SEO efectivas. Aprende a posicionar de manera óptima tu web y a mejorar la visibilidad de tu sitio en los resultados de búsqueda y atraer más tráfico orgánico de calidad."> <!-- descripción -->
+    <meta name="twitter:title" content="SEO Donostia | Cómo posicionar tu página web en los navegadores"> <!-- título -->
+    <meta name="twitter:site" content="" > <!-- user de twitter con el @ -->
+    <meta name="twitter:image" content=""> <!-- url banner 1200x600 -->
 
 </head>
+
+<!-- CONTENIDO DE LA WEB LO QUE SE VE -->
 <body>
     <!-- Aquí va el menú -->
     <nav>
@@ -47,7 +54,8 @@
     <!-- Aquí la imagen o el h1 principal -->
     <header>
 
-        <img src="./img/portada-seo-donostia_1200.webp" alt="Imagen principal de la importancia del SEO en tu web" title="El SEO es vital para posicionar bien tu página web">
+        <!-- <img src="./img/portada-seo-donostia_1200.webp" alt="Imagen principal de la importancia del SEO en tu web" title="El SEO es vital para posicionar bien tu página web" loading="lazy"> -->
+
 
         <picture>            
             <!-- webp -->
@@ -56,25 +64,24 @@
             srcset="
             ./img/portada-seo-donostia_400.webp 450w,
             ./img/portada-seo-donostia_700.webp 750w,
-            ./img/portada-seo-donostia_1200.webp 1400w"
+            ./img/portada-seo-donostia_1200.webp 1300w"
             sizes="
             (max-width: 450px) 400px,
-            (max-width: 750px) 750px,
+            (max-width: 750px) 700px,
             1200px"
             >
             <!-- jpg -->
             <img 
-            src="./assets/img/vidal_06_400.jpg" width="400" height="268"
-            class="lazyload" loading="lazy" alt="Imagen principal de la importancia del SEO en tu web" title="El SEO es vital para posicionar bien tu página web"
+            src="./img/portada-seo-donostia_400.jpg" width="400" height="300"
+            loading="lazy" alt="Imagen principal de la importancia del SEO en tu web" title="El SEO es vital para posicionar bien tu página web"
             srcset="
             ./img/portada-seo-donostia_400.jpg 450w,
             ./img/portada-seo-donostia_700.jpg 750w,
-            ./img/portada-seo-donostia_1200.jpg 1400w"
+            ./img/portada-seo-donostia_1200.jpg 1300w"
             sizes="
             (max-width: 450px) 400px,
-            (max-width: 750px) 750px,
-            1200px"
-            
+            (max-width: 750px) 700px,
+            1200px"            
             >
         </picture>   
 
@@ -106,7 +113,7 @@
         </section>
 
         <section>
-            <img class="imagenTipo2" src="./img/que-es-el-seo_400.webp" alt="Imagen sobre la importancia del SEO en tu empresa" title="No vale con hacer bien la web, debes tener en cuenta otros factores externos para tener un buen SEO">
+            <img class="imagenTipo2" src="./img/que-es-el-seo_400.webp" alt="Imagen sobre la importancia del SEO en tu empresa" title="No vale con hacer bien la web, debes tener en cuenta otros factores externos para tener un buen SEO" loading="lazy">
             <h2>¿Cómo mejorar el SEO de tu web</h2>
 
             <article>
@@ -132,30 +139,19 @@
                 <p>Otro aspecto crucial en la optimización de imágenes es el peso del archivo. Es importante encontrar un equilibrio entre la calidad visual de la imagen y su tamaño de archivo. Reducir el peso del archivo de las imágenes puede ayudar a mejorar el tiempo de carga de la página, lo que es especialmente importante en dispositivos móviles y conexiones a internet más lentas. Utilizar herramientas de compresión de imágenes y eliminar metadatos innecesarios son formas efectivas de reducir el peso del archivo sin sacrificar la calidad de la imagen.</p>
             </article>
 
-            <img class="imagenTipo2" src="./img/como-mejorar-el-seo-de-tu-web_400.webp" alt="Imagen sobre la importancia de la audiencia de mi web" title="La importancia de tener una buena audiencia para mejorar el posicionamiento de tu web">
+            <img class="imagenTipo2" src="./img/como-mejorar-el-seo-de-tu-web_400.webp" alt="Imagen sobre la importancia de la audiencia de mi web" title="La importancia de tener una buena audiencia para mejorar el posicionamiento de tu web" loading="lazy">
+
             <article>
                 <h3>La importancia de tener usuarios de calidad en tu web</h3>
                 
                 <p>La calidad de los usuarios que visitan tu sitio web es fundamental para el éxito de cualquier estrategia en línea. No se trata solo de atraer a un gran número de visitantes, sino de garantizar que estos usuarios estén realmente interesados en tu contenido y sean propensos a realizar acciones valiosas, como comprar un producto, suscribirse a un servicio o interactuar con tu marca de manera significativa.</p>
                 <p>Un usuario de calidad es aquel que tiene un alto nivel de compromiso con tu sitio web y muestra un interés genuino en lo que ofreces. Estos usuarios tienden a pasar más tiempo explorando tu contenido, interactuar con tus publicaciones y realizar conversiones, lo que se traduce en un mayor retorno de la inversión (ROI) para tu negocio. Por lo tanto, es fundamental centrarse en atraer y retener a usuarios de calidad mediante estrategias de marketing y SEO bien planificadas, que se centren en ofrecer contenido relevante y experiencias personalizadas que satisfagan las necesidades y los intereses de tu audiencia objetivo.</p>
             </article>
-            <article>
-                <h3>La importancia de tener usuarios de calidad en tu web</h3>
-                
-                <p>La calidad de los usuarios que visitan tu sitio web es fundamental para el éxito de cualquier estrategia en línea. No se trata solo de atraer a un gran número de visitantes, sino de garantizar que estos usuarios estén realmente interesados en tu contenido y sean propensos a realizar acciones valiosas, como comprar un producto, suscribirse a un servicio o interactuar con tu marca de manera significativa.</p>
-                <p>Un usuario de calidad es aquel que tiene un alto nivel de compromiso con tu sitio web y muestra un interés genuino en lo que ofreces. Estos usuarios tienden a pasar más tiempo explorando tu contenido, interactuar con tus publicaciones y realizar conversiones, lo que se traduce en un mayor retorno de la inversión (ROI) para tu negocio. Por lo tanto, es fundamental centrarse en atraer y retener a usuarios de calidad mediante estrategias de marketing y SEO bien planificadas, que se centren en ofrecer contenido relevante y experiencias personalizadas que satisfagan las necesidades y los intereses de tu audiencia objetivo.</p>
-            </article>
+
 
         </section>
 
-        <!-- trabajo desde casa en el día 3 -->
-
-
-
-
-
     </main>
-
     
     <footer>
         <p>
@@ -168,21 +164,4 @@
     </footer>
 </body>
 
-<script>
-    if ("loading" in HTMLImageElement.prototype) {
-      // Si el navegador soporta lazy-load, tomamos todas las imágenes que tienen la clase
-      // `lazyload`, obtenemos el valor de su atributo `data-src` y lo inyectamos en el `src`.
-      const images = document.querySelectorAll("img.lazyload");
-      images.forEach((img) => {
-        img.src = img.dataset.src;
-      });
-    } else {
-      // Importamos dinámicamente la libreria `lazysizes`
-      let script = document.createElement("script");
-      script.async = true;
-      script.src =
-        "https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js";
-      document.body.appendChild(script);
-    }
-  </script>
 </html>

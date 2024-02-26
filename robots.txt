@@ -1,0 +1,5 @@
+Sitemap: https://webda.eus/profeseo/sitemap.xml
+User-agent: *
+Disallow: /cgi-bin
+User-agent: Googlebot-Image
+Disallow: /php
